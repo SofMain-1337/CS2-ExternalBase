@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\menu\menu.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\offsets\offsets.cpp" />
+    <ClCompile Include="source\offsets\offsets.h" />
+    <ClCompile Include="source\threads\threads.cpp" />
+    <ClCompile Include="source\features\bhop.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\features\fov.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="source\features\glow.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="source\features\noflash.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="source\features\triggerbot.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="customaim.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\globals\settings.h" />
+    <ClInclude Include="source\menu\menu.h" />
+    <ClInclude Include="source\memory\memory.h" />
+    <ClInclude Include="source\threads\threads.h" />
+    <ClInclude Include="gui.h">
+      <Filter>custombysofmain</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>custombysofmain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\features\bhop.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\features\fov.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="source\features\glow.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="source\features\noflash.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="minwindef.h">
+      <Filter>custombysofmain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\features\triggerbot.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="customaim.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="UNDEDECTEDHEADERSMETHOD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="features">
+      <UniqueIdentifier>{5527479d-b43f-4bf7-a438-fe2f924c5949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0eba740b-7530-4c8a-a568-4dee58189841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="custombysofmain">
+      <UniqueIdentifier>{ef00a619-8b6f-4fdd-b8ae-0746fcf27eab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
